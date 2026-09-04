@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software or the processed hazard inputs, please cite the accompanying manuscript and the source datasets listed in DATA_AVAILABILITY.md."
+title: "GCIRI model code and open hazard inputs"
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Yongan
+  - family-names: Jiang
+    given-names: Yujie
+  - family-names: Guo
+    given-names: Zhiling
+  - family-names: Chen
+    given-names: Yuntian
+  - family-names: Yan
+    given-names: Jinyue
+repository-code: "https://github.com/YonganZhang/global-city-resilience-paper1-scs"
+license: MIT
+version: 1.1.0
+date-released: 2026-09-04

@@ -1,10 +1,16 @@
 __pycache__/
 *.py[cod]
+.venv/
 .pytest_cache/
 .coverage
 .env
 *.log
-data/
 results/
 outputs/
 figures/
+data/hazards/raw/
+data/hazards/raw-*/
+*.tif
+*.tiff
+*.gpkg
+*.part
