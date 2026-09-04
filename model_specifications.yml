@@ -1,0 +1,43 @@
+schema: gciri-model-specifications/v1
+assessment_window_utc:
+  start: 2026-05-22
+  end: 2026-05-23
+request_settings:
+  response_format: json_only
+  max_output_tokens: 16000
+  requested_temperature: 0.1
+  openai_gpt_5_nano_temperature: 1.0
+parliament_members:
+  - family: ChatGPT
+    model: gpt-5-nano
+    provider: OpenAI
+  - family: Qwen
+    model: qwen-flash
+    provider: Alibaba Cloud
+  - family: Doubao
+    model: doubao-seed-2-0-mini-260215
+    provider: ByteDance Volcengine
+  - family: DeepSeek
+    model: deepseek-v4-flash
+    provider: DeepSeek
+  - family: GLM
+    model: glm-4-flash
+    provider: Zhipu AI
+  - family: Gemini
+    model: gemini-2.5-flash
+    provider: Google
+  - family: Grok
+    model: grok-4-fast-non-reasoning
+    provider: xAI
+  - family: Llama
+    model: llama-4-scout-17b-16e-instruct
+    provider: Meta
+consul:
+  family: Gemini
+  model: gemini-2.5-pro
+  provider: Google
+randomness:
+  clustering_random_state: 0
+  clustering_restarts: 50
+  peer_scrambling_seed: 20260717
+  bootstrap_seed: 20260717
